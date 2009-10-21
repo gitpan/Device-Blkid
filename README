@@ -1,0 +1,54 @@
+Device::Blkid - Interface to libblkid
+=====================================
+
+WARNING: This module requires libblkid 2.16 or newer, i.e. a version that 
+ships with util-linux-ng (in contrast to older library versions, which
+were part of e2fsprogs).
+
+libblkid is a Linux library that is able to probe devices for the file
+systems on that devices and other information. Most file systems provide
+a UUID, and possibly a label.
+
+"Device::Blkid" closely resembles the native interface of libblkid. All 
+functions provided by libblkid are available from Perl as well. Most
+functions work exactly the same way, although a few have been slightly
+modified to behave a little more "Perlish".
+
+
+A complete API description is available in the module's perldoc
+(perldoc Device::Blkid). Additionally, information about the module may 
+be found on:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Device-Blkid
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Device-Blkid
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Device-Blkid
+
+    Search CPAN
+        http://search.cpan.org/dist/Device-Blkid/
+
+Installation
+============
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make install
+
+
+You may test the package with "make test"; this will, however, only succeed
+if run as root.
+
+Copyright and licence
+=====================
+
+Copyright (C) 2009 Collax GmbH. All rights reserved.
+(Bastian Friedrich <bastian.friedrich@collax.com> or <bastian@bastian-friedrich.de>)
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.8.8 or,
+at your option, any later version of Perl 5 you may have available.
