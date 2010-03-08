@@ -1,9 +1,15 @@
 lib/Device/Blkid.pm		Perl interface to the package
+inc/Devel/CheckLib.pm		Devel::CheckLib as available from CPAN
 Blkid.xs			Perl extension
 typemap				Perl typemap
-t/00-load.t			Basic tests -- module loading
-t/01-call.t			Basic tests -- function calls
 Makefile.PL			MakeMaker make file
 MANIFEST			This list of files
 README				Readme
+ChangeLog			Change log
+t/00-load.t			Basic tests -- module loading
+t/01-call.t			Basic tests -- function calls
+t/imgs/ext2.img			Test image for ext2
+t/imgs/lvm2pv.img		Linux LVM test image
+t/imgs/swap.img			Linux swap partition test image
+
 META.yml                                 Module meta-data (added by MakeMaker)

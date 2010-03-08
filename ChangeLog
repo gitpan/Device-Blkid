@@ -1,0 +1,10 @@
+Changelog for Device::Blkid
+
+20100308	[ 0.9.1 ]
+	- Check for valid libblkid with Devel::CheckLib in Makefile.PL
+	- Include test images in distribution
+	- Compress distribution with gzip instead of bzip2
+	- Require perl 5.8.1 or newer
+
+20091021	[ 0.9 ]
+	- Initial release
